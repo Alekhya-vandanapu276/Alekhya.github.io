@@ -1,32 +1,32 @@
 html {
   overflow-y: scroll;
  }
- 
+
  :root {
    overflow-y: auto;
    overflow-x: hidden;
 
  }
- 
+
   :root body {
    position: absolute;
  }
- 
+
  body {
   width: 100vw;
   overflow: hidden;
- }  
+ }
 
 
 
 body {
-    
+
     color: #777;
-    
+
   }
   h3, h4 {
     /* margin: 10px 0 30px 0; */
-    letter-spacing:2 px;      
+    letter-spacing:2 px;
     /* font-size: 20px; */
     color: white !important;
   }
@@ -36,15 +36,15 @@ body {
 {
     background-color: #ffbd39 !important;
     margin-top: 25px;
-    
+
 }
   p {font-size: 16px;}
 
-  .margin 
+  .margin
   {
       margin-bottom: 45px;
-      
-    
+
+
     }
   #profile-img{
     box-shadow: 0 0 10px 6px #ffbd39;
@@ -53,7 +53,7 @@ body {
     margin-top: 50px;
     width: 230px;
     height: 230px;
-   
+
 }
 .name-dec
 {
@@ -61,7 +61,7 @@ body {
     font-size: 60px;
     padding: 10px;
     letter-spacing: 3px;
-} 
+}
 
 
 
@@ -69,7 +69,7 @@ body {
     padding-top: 70px;
     /* padding-bottom: 70px; */
     background-color: #2d2d30;
-    
+
   }
   .nav-tabs li a {
     color: #fff ;
@@ -84,7 +84,7 @@ body {
     opacity: 0.9;
     font-weight: 500;
   }
-  .navbar li a, .navbar .navbar-brand { 
+  .navbar li a, .navbar .navbar-brand {
     color: black !important;
 
   }
@@ -96,22 +96,22 @@ body {
     font-weight: 700;
     padding: 2px;
   }
-  
+
   .navbar-nav li a:hover {
     color: #ffbd39 !important;
   }
-  
+
   .navbar-default .navbar-toggle {
     border-color: transparent !important;
   }
 
 
-  
+
 .resume-wrap {
-    
+
   font-family: 'Courgette', cursive;
     width: auto;
-    
+
     margin-bottom: 30px;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -125,7 +125,7 @@ body {
     .resume-wrap .date {
       font-weight: 900;
       font-size: 26px;
-      color: #ffbd39; 
+      color: #ffbd39;
       /* justify-content: center;
       display: flex; */
   }
@@ -147,7 +147,7 @@ body {
        display: flex; */
       font-size: 19px;
       color: white;
-    
+
   }
   .resume-wrap .per{
     /*justify-content: center;
@@ -155,22 +155,22 @@ body {
       font-size: 20px;
       font-weight: 500;
       color: #ffbd39;
-     
+
   }
-   
+
     @media (prefers-reduced-motion: reduce) {
       .progress-bar {
         -webkit-transition: none;
         -o-transition: none;
         transition: none; } } */
-  
+
    .progress-bar-striped {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-size: 1rem 1rem; }
-  
-  
+
+
   .progress-bar-animated {
     -webkit-animation: progress-bar-stripes 1s linear infinite;
     animation: progress-bar-stripes 1s linear infinite; }
@@ -178,7 +178,7 @@ body {
       .progress-bar-animated {
         -webkit-animation: none;
         animation: none; } }
-  
+
         .progress-wrap {
           width: 100%;
           margin-bottom: 30px;
@@ -186,16 +186,16 @@ body {
           .progress-wrap h3 {
             font-size: 20px;
             margin-bottom: 10px;
-            font-weight: 500; 
+            font-weight: 500;
             font-family: 'Courgette', cursive;}
-  
+
          .progress {
           height: 10px !important;
           -webkit-box-shadow: none;
           box-shadow: none;
           background: #1a1a1a;
           overflow: visible; }
-  
+
         .progress-bar {
           background: #ffbd39 !important;
           -webkit-box-shadow: none;
@@ -209,8 +209,8 @@ body {
           -webkit-border-radius: 2px;
           -moz-border-radius: 2px;
           -ms-border-radius: 2px;
-          border-radius: 2px; 
-      
+          border-radius: 2px;
+
     }
 
 
@@ -226,7 +226,7 @@ body {
             -moz-border-radius: 2px;
             -ms-border-radius: 2px;
             border-radius: 2px;
-            opacity: 0; }  
+            opacity: 0; }
 
 
 .progress span {
@@ -237,7 +237,7 @@ body {
             font-size: 20px;
             font-weight: 400;
             color: #fff !important;
-         } 
+         }
 
 
 
@@ -254,7 +254,7 @@ body {
   .col-sm-4
   {
       color: white !important;
-  }             
+  }
 
 
 
@@ -270,12 +270,12 @@ body {
   .custom
   {
       position: relative;
-      
+
       margin-left: auto;
   }
 
   .card {
-      
+
     text-align: center;
     color: #FFFFFF;
     width: 300px;
@@ -291,7 +291,7 @@ body {
     padding-right: 0px;
     margin-bottom: 50px;
     perspective: 1000px;
-    font-family: 'Courgette', cursive; 
+    font-family: 'Courgette', cursive;
   }
   /* flip the pane when hovered */
   .flipper.flip .card {
@@ -306,7 +306,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    font-family: 'Courgette', cursive; 
+    font-family: 'Courgette', cursive;
   }
   /* front pane, placed above back */
   .front {
@@ -329,13 +329,13 @@ body {
     bottom: 0px;
     padding-left: 20px;
     left: 0px;
-   
+
     cursor: pointer;
     text-decoration: none;
   }
 .goback p{
     color: white;
-    
+
 }
 
 
@@ -355,7 +355,7 @@ body {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39;
   }
-  
+
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39, 0 0 80px #ffbd39;
   }
@@ -368,16 +368,14 @@ body {
     padding-bottom:70px;
    padding-top: 70px;
    text-transform: uppercase;
-  -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+text-shadow:5px 20px 10px #fdff00;
 }
 
 @keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39;
   }
-  
+
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #ffbd39, 0 0 40px #ffbd39, 0 0 50px #ffbd39, 0 0 60px #ffbd39, 0 0 70px #ffbd39, 0 0 80px #ffbd39;
   }
@@ -410,7 +408,7 @@ body {
     color:#ffbd39 !important ;
     font-size: 15px;
     padding: 5px;
-    
+
 }
 
 
@@ -426,7 +424,7 @@ body {
 }
 
 .resume-wrap1 {
-  
+
   height: auto;
     width: auto;
     max-width: 750px;
@@ -439,29 +437,29 @@ body {
     border-radius: 5px;
     display: block;
     justify-content: center;
-    
+
    }
     .resume-wrap1 .date {
       font-weight: 900;
       font-size: 26px;
-      color: #ffbd39; 
+      color: #ffbd39;
       justify-content: center;
       display: flex;
-     
+
   }
     .resume-wrap1 p {
       font-size: 16px;
       justify-content: center;
       display: flex;
       color: white;
-      
+
      }
     .resume-wrap1 .position {
       font-size: 20px;
      justify-content: center;
       display: flex;
       color: white;
-      
+
      }
   .resume-wrap1 .special
   {
@@ -469,7 +467,7 @@ body {
       display: flex;
       font-size: 19px;
       color: white;
-    
+
   }
   .resume-wrap1 .per{
     justify-content: center;
@@ -477,8 +475,8 @@ body {
       font-size: 20px;
       font-weight: 500;
       color: #ffbd39;
-      
-     
+
+
   }
 
 
@@ -486,38 +484,38 @@ body {
 {
     font-size: 20px;
     color: #ffbd39 !important;
-    font-family: 'Courgette', cursive; 
+    font-family: 'Courgette', cursive;
 }
 
 
 .date-work
-{  
+{
     font-size: 13px;
     color: white !important;
-    font-family: 'Courgette', cursive; 
+    font-family: 'Courgette', cursive;
   }
 
 
 
 .list-data li{
   font-size: 15px;
-    color: white !important; 
-    font-family: 'Courgette', cursive; 
-    
+    color: white !important;
+    font-family: 'Courgette', cursive;
+
 }
 
 .list-data li::before
 {
-  
-  color: #ffbd39 !important; 
+
+  color: #ffbd39 !important;
 }
 
 .resume-wrap2 {
-    
-  
+
+
   width: auto;
   height: auto;
-  
+
   margin-bottom: 30px;
   background: rgba(255, 255, 255, 0.1);
   padding: 20px;
@@ -534,7 +532,7 @@ body {
 {
   color: white !important;
   font-size: 15px ;
-  font-family: 'Courgette', cursive; 
+  font-family: 'Courgette', cursive;
 
 }
 
@@ -554,13 +552,13 @@ body {
 {
   font-size: 35px;
   color: #ffbd39 !important;
- 
+
 }
 
 
 #myCarousel
 {
-  font-family: 'Courgette', cursive; 
+  font-family: 'Courgette', cursive;
 }
 
 
@@ -579,10 +577,10 @@ body {
 }
 .acheive-div
 {
-  
+
 
 width: auto;
- 
+
 }
 .where
 {
@@ -622,7 +620,7 @@ html{
   color: white;
   font-size: 22px;
   margin-bottom: 50px;
-  
+
 
 }
 .n,.s,.v,.st,.pc,.container-fluid{
@@ -631,10 +629,10 @@ html{
 
 /* .foot-icons a
 {
-  /* color:#ffbd39 !important ; 
+  /* color:#ffbd39 !important ;
   font-size: 40px;
   padding-right: 60px;
-  
+
 } */
 
 
@@ -649,7 +647,7 @@ html{
   /* ----------------------------------------------
  * Generated by Animista on 2020-8-9 18:49:58
  * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
+ * See http://animista.net/license for more info.
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
@@ -680,7 +678,7 @@ html{
 }
 
 .foot-icons a {
-  
+
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -690,7 +688,7 @@ html{
   font-size: 30px;
   color: #666;
   transition: .5s;
-  
+
 }
 
 .foot-icons a:before {
@@ -736,4 +734,3 @@ html{
       color: white;
 
     }
-
